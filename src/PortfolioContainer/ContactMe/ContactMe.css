@@ -1,0 +1,113 @@
+.contact-me{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.black-box{
+    width: 60%;
+    height: 450px;
+    box-shadow: 2px 0px  var(--dark-orange);
+    display: flex;
+    flex-direction: row;
+    background-image: url("../../assets//Home/bg.jpg");
+    background-size: cover;
+    border-radius: 14px;
+
+}
+.design-side{
+    display: flex;
+    width: 50%;
+    color: aliceblue;
+    flex-direction: column;
+}
+
+.get-in-touch{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 900;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+.send-email{
+    font-family: monospace;
+    margin-top: 25px;
+    padding-left: 6px;
+    font-size: 14px;
+    font-weight: 600 ;
+    color: #eee;
+}
+
+.social-media-icons{
+    padding-left: 20px;
+}
+.colz-icon{ 
+    display: flex;
+    justify-content: space-around;
+}
+.colz .colz-icon i{
+    color: white;
+    padding-left:18px;
+ 
+}
+.colz .colz-icon i:hover {
+transform: scale(1.8);
+}
+/*******/
+.mail-img{
+    display: flex;
+    height: 40%;
+    background-image: url("../../assets//Home/mailz.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+}
+.type-side{
+    width: 50%;
+    display: flex;
+    height: 65%;
+    color: aliceblue;
+    border-radius: 5px;
+    flex-direction: column;
+}
+.form-feilds{
+    color: var(--dark-orange);
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+.text{
+    width: 85%;
+    background-color: #eee;
+    border-radius: 8px;
+}
+.msg-text{
+    width:85%;
+    border-radius: 8px;
+    height:100px;
+    background-color: #eee;
+    
+}
+.send-btn{
+    width: 35%;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: var(--dark-orange);
+    color: #eee;
+    border-radius: 20px;
+    border-color: #eee;
+    font-weight: 600;
+  
+}
+.send-btn:hover{
+    padding: 10px;
+    color: var(--dark-orange);
+    background-color:#eee;
+    border: 4px;
+    border-color: var(--dark-orange);
+    transform: scale(1.10);
+}
