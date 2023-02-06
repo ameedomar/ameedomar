@@ -71,14 +71,14 @@ function ResumeBox() {
               className="cat-btns"
               onClick={displayFeild}
             >
-              Educations
+              Education
             </button>
             <button
               id="experiance-btn"
               className="cat-btns"
               onClick={displayFeild}
             >
-              Experiance
+              Experience
             </button>
             <button id="prog-btn" className="cat-btns" onClick={displayFeild}>
               Programming Skills
@@ -120,7 +120,7 @@ function ResumeBox() {
                       </li>
                       <p className="duration"> 2006-2017</p>
                     </div>
-                    <p> Elementary, middle and high schoo</p>
+                    <p> Elementary, middle and high school</p>
                   </div>
                 </ul>
               </div>
@@ -148,9 +148,8 @@ function ResumeBox() {
                   <p className="tranning-subject"> Front End Training</p>
                   <p className="tranning-details">
                     {" "}
-                    I had a unique training opportunity with a strong company
-                    and was firmly established in the basics of front end and
-                    reaction
+                    I had a training opportunity with a strong company and was
+                    firmly established in the basics of front end and react
                   </p>
                 </div>
                 <div className="tranning-third-entry">

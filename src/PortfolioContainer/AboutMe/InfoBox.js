@@ -8,13 +8,13 @@ function InfoBox(props) {
           <div className="left-side-box"></div>
           <div className="right-side-box">
             <span>
-              A Computer engineering with very good software experience combined
-              with extensive knowledge in software development like web
+              A Computer engineer with a very good software experience combined
+              with an extensive knowledge in software development like web
               development by React, mobile development with cross-platforms.
               {"\n"}
               <br></br>
               <br></br>
-              further an excellent foundation in programming languages.
+              Furthermore, an excellent foundation in programming languages.
               <br></br>
               <br></br>
               Good spoken and written English, experience in problem solving,
@@ -22,7 +22,10 @@ function InfoBox(props) {
             </span>
             <div className="bottom-area">
               <div className="highlighted-text">
-                <h5> Here are a few Highlightes :</h5>
+                <h5 className="highlighted-text">
+                  {" "}
+                  Here are a few Highlightes :
+                </h5>
               </div>
               <ul>
                 <li> Front End Developer</li>

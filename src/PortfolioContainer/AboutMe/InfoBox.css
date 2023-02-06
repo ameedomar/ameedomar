@@ -59,6 +59,9 @@
 .infoBox-btns{
     margin-left: 20px;
 }
+.primary-btn{
+background-color: #24263b;
+}
 .infoBox-btns .highlighted-btn{
     margin: 0 0 0 28px;
 }
@@ -66,4 +69,78 @@
     margin: 0 0 0 28px;
     background-color: cornsilk;
     color: #111;
+}
+@media screen and (max-width: 710px){
+ 
+    /* .aboutMe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-contant{
+        display: flex;
+        flex-direction: row;
+    } */
+    .main-box{
+        width: 95%;
+        height: 600px;
+        border: 3px ;
+        box-shadow: 2px 0px  var(--dark-orange);
+    
+    }
+    .highlighted-text{
+        color: var(--dark-orange);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 12px;
+
+    }
+    .left-side-box{
+        width: 44%;
+        height: 400px;
+        background-image: url("../../assets/Home/ameed.jpg");
+        background-size: cover;
+        padding-left: 100px;
+        border-radius: 3%;
+    }
+    .right-side-box{
+        padding-left: 21px;
+        padding-right: 6px;
+        width: 56%;
+        height: 300px;
+        font-size: 9px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 450;
+    }
+    
+    .bottom-area{
+        border-top-style: solid;
+        border-top-width: 0.12rem;
+        border-top-color: var(--dark-orange);
+        margin-top: 5px;
+        padding-top: 5px;
+        font-size: 9px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 10px;
+      
+    }
+    .infoBox-btns{
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .infoBox-btns .highlighted-btn{
+        margin: 10px 10px 10px 10px;
+    }
+    .infoBox-btns .highlighted-btn:hover{
+        margin: 10px 10px 10px 10px;
+        background-color: cornsilk;
+        color: #24263b;
+    }
 }

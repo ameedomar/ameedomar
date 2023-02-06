@@ -79,18 +79,6 @@ function ContactMe() {
             <textarea name="message" className="msg-text" />
             <input type="submit" value="Send" className="send-btn" />
           </form>
-
-          {/* <form className="form-feilds">
-            <label>Name</label>
-            <input type="text" className="text" />
-
-            <label>Email</label>
-            <input type="text" className="text" />
-
-            <label>Message</label>
-            <textarea className="msg-text"></textarea>
-            <button className="send-btn"> Send</button>
-          </form> */}
         </div>
       </div>
     </div>

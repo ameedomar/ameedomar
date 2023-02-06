@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #24263b;
 }
 .secondary-font{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -19,6 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #24263b;
 }
 .highlighted-text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

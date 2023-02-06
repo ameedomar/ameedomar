@@ -81,10 +81,12 @@ transform: scale(1.9);
         margin: 0 0px 0 80px;
     }   
     .profile-details-name{
-        width: 20px;   
+        width: 20px;  
+        margin-left: 40px;
+        
     }
     .profile-details-role .primary-text{
-        font-size: 12px;
+        font-size: 155px;
     }
     .profile-options .btn{
         width: 120px;
@@ -103,6 +105,13 @@ transform: scale(1.9);
     .profile-picture{
       margin: 0 !important;
     }   
+    .profile-details-name{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: "Poppins SemiBold";
+       }
     .profile-parent{
         flex-direction: column-reverse;
         margin: 40px 0 0 0;
