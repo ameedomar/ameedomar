@@ -201,6 +201,10 @@
     font-size: 12px;
 }
 /************** Projects **************/
+.projects-details{
+    display: flex;
+    flex-direction: row;
+}
 .projects-ul{
     display: flex;
     padding-top: 30px;
@@ -216,6 +220,33 @@
 .project3{
     margin-top: 20px;
     margin-right: 20px;
+}
+.right-bar{
+    width: 150px;
+    margin-right: 10px;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.git-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 15px;
+   
+}
+.address-title{
+    color: var(--dark-orange);
+    font-size: 12px;
+    font-weight: 600;
+}
+.git-icon{
+    width: 55%;
+    margin-top: 100px;
+
 }
 @media screen and (max-width: 1110px){
    

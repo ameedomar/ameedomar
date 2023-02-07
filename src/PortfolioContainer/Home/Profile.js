@@ -17,21 +17,7 @@ export default function Profile() {
           </div>
           <div className="profile-details-role">
             <span className="primary-text">
-              <h1>
-                <Typical
-                  loop={Infinity}
-                  steps={[
-                    "Front-End Developer",
-                    3000,
-                    "ReactJS Developer",
-                    4000,
-                    " Java Programmer",
-                    1000,
-                    "Cross Platform Dev",
-                    2000,
-                  ]}
-                ></Typical>
-              </h1>
+              <h1>Front-End Developer</h1>
               <span className="profile-role-tagline">
                 Talent for creating and designing the front-end of websites
               </span>

@@ -5,6 +5,7 @@ import giv_love from "../../assets/icons/give-love.png";
 import magistrate from "../../assets/icons/magistrate.png";
 import worker from "../../assets/icons/worker.png";
 import experience from "../../assets/icons/experience.png";
+import github from "../../assets/icons/git-hup.png";
 function ResumeBox() {
   const [education, setEducation] = useState(true);
   const [experiance, setExperiance] = useState(false);
@@ -226,14 +227,10 @@ function ResumeBox() {
                     </div>
                     <p className="project-description">
                       It is a website through which you can view and purchase
-                      needs
+                      needs It is a website through which you can view and
+                      purchase needs It is a website through which you can view
+                      and purchase needs
                     </p>
-                    <a
-                      className="tranning-subject"
-                      href="https://github.com/ameedomar/StoreProduct"
-                    >
-                      GitHup Link
-                    </a>
                   </div>
                   <div className="project2">
                     <div className="title-line">
@@ -244,13 +241,6 @@ function ResumeBox() {
                       and was firmly established in the basics of front end and
                       reaction
                     </p>
-
-                    <a
-                      className="tranning-subject"
-                      href="https://github.com/ameedomar/GoCoin"
-                    >
-                      GitHup Link
-                    </a>
                   </div>
                   <div className="project3">
                     <div className="title-line">
@@ -262,14 +252,34 @@ function ResumeBox() {
                       the amount of money entered and return the rest of the
                       money to the customer. Built with java
                     </p>
-                    <a
-                      className="tranning-subject"
-                      href="https://github.com/ameedomar/SnackVendingMachine"
-                    >
-                      GitHup Link
-                    </a>
                   </div>
                 </ul>
+                <div className="right-bar">
+                  <p className="address-title"> Projects</p>
+                  <div className="git-icons">
+                    <a href="https://github.com/ameedomar/StoreProduct">
+                      <img
+                        src={github}
+                        alt="no GitHup icon available"
+                        className="git-icon"
+                      ></img>
+                    </a>
+                    <a href="https://github.com/ameedomar/GoCoin">
+                      <img
+                        src={github}
+                        alt="no GitHup icon available"
+                        className="git-icon"
+                      ></img>
+                    </a>
+                    <a href="https://github.com/ameedomar/SnackVendingMachine">
+                      <img
+                        src={github}
+                        alt="no GitHup icon available"
+                        className="git-icon"
+                      ></img>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           )}
