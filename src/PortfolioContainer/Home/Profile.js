@@ -8,7 +8,7 @@ export default function Profile() {
   const download = (e) => {
     e.preventDefault();
     Axios({
-      url: "http://ameedomar.com",
+      url: "https://ameedomar.com",
       method: "GET",
       responseType: "blob",
     }).then((res) => {
@@ -41,12 +41,17 @@ export default function Profile() {
             <button className="btn primary-btn"> Hire Me</button>
 
             {/* <a href="Ameed Omar-CV.pdf" download="Ameed Omar-CV.pdf"> */}
-            <button
-              className="btn highlighted-btn"
-              onClick={(e) => download(e)}
+            <a
+              href="https://docs.google.com/document/d/1Rdw8afAk26ElQrPJimJnUcwgbZqRo8WEOSGw26Gj_7o/edit?usp=sharing"
+              target="_blank"
             >
-              Get Resume
-            </button>
+              <button
+                className="btn highlighted-btn"
+                onClick={(e) => download(e)}
+              >
+                Show Resume
+              </button>
+            </a>
           </div>
         </div>
         <div className="profile-picture">
