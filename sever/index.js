@@ -8,4 +8,4 @@ app.get("/", (req, res) => {
   res.download("./Rsume.pdf");
 });
 
-app.listen("http://ameedomar.com");
+app.listen("https://ameedomar.com");
