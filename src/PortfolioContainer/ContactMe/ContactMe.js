@@ -68,6 +68,19 @@ function ContactMe() {
           <div className="mail-img">
             {/* <img src={mail} alt="mail-img"></img> */}
           </div>
+          <div className="whatsapp-me">
+            <div className="wa">
+              <div className="wa-icon">
+                <p> Let's create together! </p>
+                <a
+                  href="https://api.whatsapp.com/send/?phone=970597049666&text&type=phone_number&app_absent=0"
+                  target="_blank"
+                >
+                  <i className="fa fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="type-side">
           <form ref={form} onSubmit={sendEmail} className="form-feilds">

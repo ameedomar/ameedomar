@@ -226,10 +226,11 @@ function ResumeBox() {
                       <li className="title-text">E-Commerce Website Store</li>
                     </div>
                     <p className="project-description">
-                      It is a website through which you can view and purchase
-                      needs It is a website through which you can view and
-                      purchase needs It is a website through which you can view
-                      and purchase needs
+                      E-Commerce Website that contain a huge collections of
+                      clothes, shoes .. rtc. you can make an online shopping
+                      during the fields and categories <br></br>
+                      in addition, you can search for any item you want or
+                      filter items according price or categories
                     </p>
                   </div>
                   <div className="project2">
@@ -285,7 +286,9 @@ function ResumeBox() {
           )}
           {interests && (
             <div className="interest">
-              <h6> Coming Soon ...</h6>
+              <li className="title-text">Photography </li>
+              <li className="title-text"> Vidoegraphy</li>
+              <li className="title-text"> More details coming soon</li>
             </div>
           )}
         </div>

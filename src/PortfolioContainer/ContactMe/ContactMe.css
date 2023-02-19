@@ -112,6 +112,27 @@ transform: scale(1.8);
     transform: scale(1.10);
 }
 
+/***Whats app me ***/
+.whatsapp-me{
+    margin-top: 15px;
+    color:#eee;
+    margin-left: 15px;
+  
+}
+.wa-icon{
+    display: flex;
+    flex-direction: row;
+   
+}
+.wa .wa-icon i{
+    color: white;
+    padding-left: 10px;
+    transform: scale(1.5);
+}
+.wa .wa-icon i:hover {
+transform: scale(1.7);
+}
+
 @media screen and (max-width: 1110px){
     .profile-picture{
         margin: 0 0px 0 80px;
