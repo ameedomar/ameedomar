@@ -47,7 +47,7 @@ export default function Profile() {
             >
               <button
                 className="btn highlighted-btn"
-                // onClick={(e) => download(e)}
+                onClick={(e) => download(e)}
               >
                 Show Resume
               </button>
