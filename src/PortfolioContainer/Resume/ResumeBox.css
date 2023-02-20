@@ -64,7 +64,7 @@
     border: 0px;
  }
  .cat-btns:active{
-    transform: scale(0.99);
+    /* transform: scale(0.99); */
  }
 
  .programming-skills{

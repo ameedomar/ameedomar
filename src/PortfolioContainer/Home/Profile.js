@@ -38,7 +38,12 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn"> Hire Me</button>
+            <button
+              onClick={() => (window.location = "mailto:ameedomar30@gmail.com")}
+              className="btn primary-btn"
+            >
+              Contact Me
+            </button>
 
             {/* <a href="Ameed Omar-CV.pdf" download="Ameed Omar-CV.pdf"> */}
             <a
@@ -47,9 +52,9 @@ export default function Profile() {
             >
               <button
                 className="btn highlighted-btn"
-                onClick={(e) => download(e)}
+                // onClick={(e) => download(e)}
               >
-                Show Resume
+                Redirect To Resume
               </button>
             </a>
           </div>

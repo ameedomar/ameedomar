@@ -28,16 +28,25 @@ function InfoBox(props) {
                 </h5>
               </div>
               <ul>
-                <li> Front End Developer</li>
+                <li>Front End Developer</li>
                 <li>Basic Conceptes of HTML CSS JS </li>
                 <li>React and React Native</li>
                 <li>Java Programmer </li>
               </ul>
             </div>
             <div className="infoBox-btns">
-              <button className="btn primary-btn"> Hire Me</button>
-              <a href="Ameed Omar-CV.pdf" download="Ameed Omar-CV.pdf">
-                <button className="btn highlighted-btn">Get Resume</button>
+              <button
+                onClick={() =>
+                  (window.location = "mailto:ameedomar30@gmail.com")
+                }
+                className="btn primary-btn"
+              >
+                Contact Me
+              </button>
+              <a>
+                <button className="btn highlighted-btn">
+                  Redirect To Resume
+                </button>
               </a>
             </div>
           </div>
